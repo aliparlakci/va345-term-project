@@ -1,2 +1,7 @@
-# VA345 Term Project
-Ali Parlakçı
+# VA345 Term Project - Ali Parlakçı
+
+Bu projede ekranda 20 tane solucan (düzensiz silindirler) görünüyor. Bu solucanlar bir kare prizma içinde hareket ediyorlar. Her bir solucan aynı görünmez küre etrafında hareket ediyor. Solucanlar 13 tane ve 7 tane olmak üzere iki gruptalar. Her grup diğer grubun tersi yönde hareketine devam ediyor. Her bir solucan, kuyruğu başını yönlendirecek şekilde hareket ediyor. Hareketlerini sürerken, Perlin Noise'un belirttiği üzere hayali kürenin içine girip dışına çıkıyorlar. Her solucanın hareketi kendine has ve benzersiz. Bu şekilde aslında solucanların yaptığı hareket tek başlarına bir "kaos" oluştursa da, bir bütünü oluşturduklarında etraflarında döndükleri şekli, küreyi ortaya çıkarıyorlar.
+
+Solucanlar aynı zamanda parlak yüzeylere sahipler. Parlaklıkları kuyruklarına doğru gidildikçe azalıp matlaşıyor. Parlak ve hareketli baş kısım, hayatın genç dönemlerini simgeliyor. Baş kısmı takip eden mat, daha az göz alıcı ve daha az oynar kısım ise yaşlılığı temsil ediyor. Yaşlılık, gençlik kadar göz almıyor, hareketli değil, ve hayatı, (izlediği yol) gençliğin (başın) önderliğinde ilerliyor.
+
+Solucanların üzerlerine düşen ışıkta ise Hue/Saturation/Lightness sistemi kullanıyor. Hue değeri Perlin Noise tarafından belirleniyor. Daha sonra bu ana renk'te bir yardımcı renk türetiliyor. Yardımcı renk, renk çemberinde ana rengin karşısında duran renk olarak seçiliyor.
